@@ -2,3 +2,5 @@
 
 Response for 7/7/2020
 https://luked77.github.io/Machine_Learning2/7-7-2020_Response
+
+[google](www.google.com)

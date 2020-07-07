@@ -1,7 +1,7 @@
 1) Traditional programming had the inputs of the data and rules which gave an answer. 
 Machine learning takes the data and answers as an input and outputs the rules needed.
 
-2) 4.039781 & 4.072095 
+2) 22.002247 & 21.999706 
 These answers are different because the algorithm answers in probabilities of the best answer.
 
 3) The best deal is house 2 ($97,000 for 3 bedrooms) and the worst deal is house 5 ($250,000 for 2 bedrooms)

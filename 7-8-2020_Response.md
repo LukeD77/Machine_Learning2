@@ -5,7 +5,15 @@ B:  relu turns any neuron output that is less than zero to zero. This alleviates
 C) The loss function gives penalties to the model predictions that are incorrect. These penalities are fed into the optimizer that adjusts the weights for each neuron based upon the size of the penality from the loss function.
 
 D) 
-1. 60000, shape = 28,28
+1. 60000 images that are 28,28
 2. 60000
-3. 10000, shape = 28,28
-4. 
+3. 10000 images that are 28,28
+4. probability_model = tf.keras.Sequential([model, tf.keras.layers.Softmax()])
+    predictions = probability_model.predict(x_test)
+    
+5. the max is at 303 in the test data
+6. 
+
+
+
+

@@ -12,7 +12,7 @@ D)
     predictions = probability_model.predict(x_test)
     
 5. the max is at 303 in the test data
-6: 
+6. ![Image](https://user-images.githubusercontent.com/67921793/86962913-a3917a80-c131-11ea-94bb-43922e988ace.png)
 
 
 

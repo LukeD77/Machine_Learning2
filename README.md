@@ -6,4 +6,4 @@
 
 [Response for 7/9/2020](https://luked77.github.io/Machine_Learning2/7-9-2020_Response)
 
-[Social Distancing Project](https://luked77.github.io/Machine_Learning2/social_distance_project)
+[Social Distancing Project](https://luked77.github.io/Machine_Learning2/social_distancing_project)

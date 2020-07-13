@@ -1,4 +1,5 @@
 [Input video](https://m.youtube.com/watch?v=3FXUw98rrUY)
+
 [Analyzed video] (https://www.youtube.com/watch?v=ZOfhW_j8his)
 
 1) The social distancing detector was not effective at identifying potential violations of social distancing rules in the input video. I belive this is because the detector works 

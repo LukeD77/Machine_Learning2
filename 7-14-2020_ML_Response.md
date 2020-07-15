@@ -20,8 +20,8 @@ over time and better identify objects.
 
 B)
 Pooling takes a an area of pixels in preset dimensions and selects the pixel with the highest value to be made into a new photo.
-This process is iterated over the entire convoluted image, eventually making a new image with the selected pixels. This decreases 
-the size of the image, therefore reducing the amount of computation needed to analyze them.
+This process is iterated over the entire convoluted image, eventually making a new image with the selected pixels. This decreases the size of the image, therefore reducing the amount of computation needed to analyze them. We are using max pooling
+as we keep the highest pixel value.
 
 [Pooled image](https://user-images.githubusercontent.com/67921793/87494991-55431680-c61e-11ea-876f-df34bb1e8c4a.png)
 

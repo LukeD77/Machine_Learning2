@@ -1,1 +1,29 @@
-[filter 1]
+A)
+[Filter 1](https://user-images.githubusercontent.com/67921793/87493981-f2e91680-c61b-11ea-8db2-3e05b4d0114e.png)
+This first filter accentuates vertical lines. This is useful for identifying the rungs in the staircase or
+structural support architecture. 
+
+
+[Filter 2](https://user-images.githubusercontent.com/67921793/87494065-21ff8800-c61c-11ea-80e7-28c926938c81.png)
+This filter accentuates horizontal lines. This is useful for identifying handrails.
+
+
+[Filter 3](https://user-images.githubusercontent.com/67921793/87494179-5e32e880-c61c-11ea-9b0d-6dde23b4f7d9.png)
+This third filter does both as well as further emphasizing all lines that it sees. This filter is useful because
+it optimizes the amount of code needed to identify structures in an image.
+
+When a filter is applied, the model iterates through each pixel and multiplies them and its neighbors by the values in the filter.
+This keeps the image the same size as before it was conveluted. Applying the filter to convelute the image aids the computer
+in recognizing patterns in the data via their enhancement by the filter. The computer can then learn to recognize these patterns
+over time and better identify objects. 
+
+B)
+Pooling takes a an area of pixels in preset dimensions and selects the pixel with the highest value to be made into a new photo.
+This process is iterated over the entire convoluted image, eventually making a new image with the selected pixels. This decreases 
+the size of the image, therefore reducing the amount of computation needed to analyze them.
+
+[Pooled image](https://user-images.githubusercontent.com/67921793/87494991-55431680-c61e-11ea-876f-df34bb1e8c4a.png)
+
+
+
+

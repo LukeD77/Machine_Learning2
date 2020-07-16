@@ -30,9 +30,6 @@ Response 2: The loss in the last 5 observations is speradic as it falls then ris
 
 
 C.
-Overfit and underfit
-1.
-What was the significance of comparing the 4 di
-ff
-erent sized models (tiny, small, 
-medium, large)?  Can you include a plot to illustrate your answer?
+Response 1: As the models got larger they took longer to process and the large and medium model became highly overfit.
+
+[figure 1](https://user-images.githubusercontent.com/67921793/87629203-90b61180-c700-11ea-9d63-701250ba141c.png)

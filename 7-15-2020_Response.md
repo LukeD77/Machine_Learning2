@@ -17,28 +17,18 @@ binary classification. The optimizer is RMSprop which is used when training on b
 the model achieves through each new batch of images.
 
 B.
-Regression
-1.
-Using the auto-mpg dataset (auto-mpg.data), upload the image where you used the 
-seaborn library to pairwise plot the four variables specified in your model.  Describe 
-how you could use this plot to investigate the co-relationship amongst each of your 
-variables.  Are you able to identify interactions amongst variables with this plot?  
-What does the diagonal access represent?  Explain what this function is describing 
-with regarding to each of the variables.
-2.
-After running 
-model.fit()
- on the auto-mpg.data data object, you returned the 
-hist.tail()
- from the dataset where the training loss, MAE & MSE were recorded as 
-well as those same variables for the validating dataset.  What interpretation can you 
-o
-ff
-er when considering these last 5 observations from the model output?  Does the 
-model continue to improve even during each of these last 5 steps?  Can you include 
-a plot to illustrate your answer?  Stretch goal: include and describe the final plot that 
-illustrates the trend of true values to predicted values as overlayed upon the 
-histogram of prediction error.  
+Response 1: [Figure 1](https://user-images.githubusercontent.com/67921793/87625752-ec7c9c80-c6f8-11ea-817a-ba6d4c5b29ec.png)
+
+This plot can be used to investigate the relationships  between variables because it displays they plots
+of numerous variables against each other. We then want to look for general trends in the data and obvious patters. For example, as the number of cylindars increases so does the displacement of the car.
+The diagonals is a frequency distribution of the number of cars in the dataset that fall into that category of data.
+
+
+Response 2: The loss in the last 5 observations is speradic as it falls then rises and falls again. This demonstrates that the model is no longer improving over these 5 epochs and increasing the number of epochs even more will not yield benefits to model accuracy. 
+
+[Figure 2](https://user-images.githubusercontent.com/67921793/87626429-45990000-c6fa-11ea-875b-002262f9b9ae.png)
+
+
 C.
 Overfit and underfit
 1.

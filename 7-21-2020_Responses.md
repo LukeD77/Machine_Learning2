@@ -27,3 +27,13 @@ input_fn function that was defined earlier.
 
 5.
 
+
+B.
+1.
+
+
+2.
+
+
+
+3.

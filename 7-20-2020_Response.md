@@ -42,15 +42,21 @@ This graph depicts the training and validation loss. As it is clearly seen, the 
 5)
 (dog1)[https://user-images.githubusercontent.com/67921793/88004387-ee69a580-cad4-11ea-9a60-83ddbd16641a.jpg]
 
+
 (dog2)[https://user-images.githubusercontent.com/67921793/88004407-f75a7700-cad4-11ea-96e9-4f74ac2c925a.jpg]
+
 
 (dog3)[https://user-images.githubusercontent.com/67921793/88004551-3dafd600-cad5-11ea-9a8b-416debbe05e7.jpg]
 
+
 (cat1)[https://user-images.githubusercontent.com/67921793/88004541-35f03180-cad5-11ea-9e92-be6c793a4da8.jpg]
+
 
 (cat2)[https://user-images.githubusercontent.com/67921793/88004347-d5f98b00-cad4-11ea-9099-dd93a733768f.jpg]
 
+
 (cat3)[https://user-images.githubusercontent.com/67921793/88004370-e4e03d80-cad4-11ea-857c-371cc046eb5e.jpg]
+
 
 As you can see from the images, these pictures feature dogs and cats with features that are not as defining as other dogs and cats. I wanted to put the model through its paces and these are the results that I got.The model identified all the dogs correctly; however, it also identified cat 1 and 3 as a dog.
 Cat 1 was a hairless cat, so the model certainly would have a harder time identifying it if there were no hairless cats in the dataset. Cat 3 may have been misidentified because of its longer face. To improve the accuracy of the model I would have been sure to include all breeds of cats and dogs when training the model to ensure that the model has seen all variations of cats and dogs, since they can vary widely in appearance. 

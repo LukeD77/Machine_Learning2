@@ -8,10 +8,10 @@
 
 [Social Distancing Project](https://luked77.github.io/Machine_Learning2/social_distancing_project)
 
-[Response for 7/14/2020](https://luked77.github.io/Machine_Learning2/7-14-2020_ML_Response)
+[Response for 7/14/2020](https://luked77.github.io/Machine_Learning2/7-14-2020_Response)
 
 [Response for 7/15/2020](https://luked77.github.io/Machine_Learning2/7-15-2020_Response)
 
 [Art Project](https://luked77.github.io/Machine_Learning2/Art_project(2))
 
-[Response for 7/20/2020](https://luked77.github.io/Machine_Learning2/7-20-2020_ML_Response)
+[Response for 7/20/2020](https://luked77.github.io/Machine_Learning2/7-20-2020_Response)

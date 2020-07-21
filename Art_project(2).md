@@ -12,6 +12,6 @@ The inspiration behind these images are that I find trees to be beautiful alread
 
 The inspiration for this is that owls, specifically barn owls are my favorite animal. Sadly though they screech instead of hoot but you get what you get.
 
-[Art](https://user-images.githubusercontent.com/67921793/87817661-569b5b80-c837-11ea-8028-fb3f51aaca5b.png)
+[SpongeBob Art](https://user-images.githubusercontent.com/67921793/87817661-569b5b80-c837-11ea-8028-fb3f51aaca5b.png)
 
-Art. Enough said.
+I believe this painting to be one of Squidward's most enduring works of art yet and it belongs in a museum. 

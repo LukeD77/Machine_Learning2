@@ -31,31 +31,31 @@ of a distribution. This relates to the probability of picking one of two classif
 The accuracy metric calculates how often the predicted answer or label is the same as the true answer or label. This is simply a percent correct metric that the model calculates. 
 
 4)
-(Model Accuracy)[https://user-images.githubusercontent.com/67921793/88000931-d8f07d80-cacc-11ea-9406-122ca1519d0b.png]
+[Model Accuracy](https://user-images.githubusercontent.com/67921793/88000931-d8f07d80-cacc-11ea-9406-122ca1519d0b.png)
 
 This graph depicts the training and validation accuracy. The model appears to start to overfit around 6 epochs and training the model longer than that is not advisable. This is apparent by the plateau of the blue line (validation), but the continuation of the red line (training).
 
-(Model Loss)[https://user-images.githubusercontent.com/67921793/88001122-6207b480-cacd-11ea-902f-9fb9eb86076d.png]
+[Model Loss](https://user-images.githubusercontent.com/67921793/88001122-6207b480-cacd-11ea-902f-9fb9eb86076d.png)
 
 This graph depicts the training and validation loss. As it is clearly seen, the loss no longer continues a downward trajectory starting at epoch 6 and starts to increase again. This is also the point that it strays from the training loss. This coincides with the model accuracy when determining that training after epoch 6 leads to an overfit model and is not advised.
 
 5)
-(dog1)[https://user-images.githubusercontent.com/67921793/88004387-ee69a580-cad4-11ea-9a60-83ddbd16641a.jpg]
+[dog1](https://user-images.githubusercontent.com/67921793/88004387-ee69a580-cad4-11ea-9a60-83ddbd16641a.jpg)
 
 
-(dog2)[https://user-images.githubusercontent.com/67921793/88004407-f75a7700-cad4-11ea-96e9-4f74ac2c925a.jpg]
+[dog2](https://user-images.githubusercontent.com/67921793/88004407-f75a7700-cad4-11ea-96e9-4f74ac2c925a.jpg)
 
 
-(dog3)[https://user-images.githubusercontent.com/67921793/88004551-3dafd600-cad5-11ea-9a8b-416debbe05e7.jpg]
+[dog3](https://user-images.githubusercontent.com/67921793/88004551-3dafd600-cad5-11ea-9a8b-416debbe05e7.jpg)
 
 
-(cat1)[https://user-images.githubusercontent.com/67921793/88004541-35f03180-cad5-11ea-9e92-be6c793a4da8.jpg]
+[cat1](https://user-images.githubusercontent.com/67921793/88004541-35f03180-cad5-11ea-9e92-be6c793a4da8.jpg)
 
 
-(cat2)[https://user-images.githubusercontent.com/67921793/88004347-d5f98b00-cad4-11ea-9099-dd93a733768f.jpg]
+[cat2](https://user-images.githubusercontent.com/67921793/88004347-d5f98b00-cad4-11ea-9099-dd93a733768f.jpg)
 
 
-(cat3)[https://user-images.githubusercontent.com/67921793/88004370-e4e03d80-cad4-11ea-857c-371cc046eb5e.jpg]
+[cat3](https://user-images.githubusercontent.com/67921793/88004370-e4e03d80-cad4-11ea-857c-371cc046eb5e.jpg)
 
 
 As you can see from the images, these pictures feature dogs and cats with features that are not as defining as other dogs and cats. I wanted to put the model through its paces and these are the results that I got.The model identified all the dogs correctly; however, it also identified cat 1 and 3 as a dog.

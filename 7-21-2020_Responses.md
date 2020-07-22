@@ -26,14 +26,25 @@ output of one out of 3 classes. After calling .train, the model is being fed dat
 input_fn function that was defined earlier.
 
 5.
-
+DNNClassifyer test set accuracy: 0.533 -- rank 3
+DNNLinearCombinedClassifier test set accuracy: 0.733 -- rank 2
+LinearClassifier test set accuracy: 0.967 -- rank 1
 
 B.
 1.
 
 
 2.
-
+A categorical feature column defines a feature that will be used by the model. Explained differently, it
+tells the model how the data is represented and should be interpreted based upon its class. A dense feature column is a categorical column that is transformed to an indicator column and then a dense column. This is to allow it to be used in the dense features layer which allows you to examine an output.
 
 
 3.
+The feature columns contained numerical values such as age and number of siblings and spouses. It also contained categorical information such as what deck the people were living on, gender, and what port they embarked at. You would asses the results from your intial output with the linear_est.evaluate command that would act on the eval_input_fn that contains the test data. The interatction between age decreased the accuracy of the model.
+
+without cross column test accuracy: 0.76
+with cross column test accuracy: 
+
+[ROC curve without cross column]()
+
+[ROC curve with cross column]()

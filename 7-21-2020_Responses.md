@@ -45,6 +45,8 @@ The feature columns contained numerical values such as age and number of sibling
 without cross column test accuracy: 0.76
 with cross column test accuracy: 
 
-[ROC curve without cross column]()
+[ROC curve without cross column](https://user-images.githubusercontent.com/67921793/88132612-02cda100-cbae-11ea-99c9-d22e65528635.png)
 
-[ROC curve with cross column]()
+[ROC curve with cross column](https://user-images.githubusercontent.com/67921793/88132617-06612800-cbae-11ea-8f7b-ed58453d0e71.png)
+
+If you flip back and forth between the ROC graphs you will notice that the cross column graph exhibits a slightly lower false positive rate than the model without the cross column.

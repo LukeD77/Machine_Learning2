@@ -15,3 +15,5 @@
 [Art Project](https://luked77.github.io/Machine_Learning2/Art_project(2))
 
 [Response for 7/20/2020](https://luked77.github.io/Machine_Learning2/7-20-2020_Response)
+
+[Response for 7/21/2020](https://luked77.github.io/Machine_Learning2/7-21-2020_Response)

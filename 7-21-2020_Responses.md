@@ -32,7 +32,11 @@ LinearClassifier test set accuracy: 0.967 -- rank 1
 
 B.
 1.
+[pairplot](https://user-images.githubusercontent.com/67921793/88133733-c3ed1a80-cbb0-11ea-8578-b439c5fa2ee3.png)
 
+[Barplot of age](https://user-images.githubusercontent.com/67921793/88133747-ce0f1900-cbb0-11ea-9ac6-0019ef59e479.png)
+
+The barplot of age matches the middle probability distribution function in the top left corner where age is compared to age. This displays how many of the data fall within certain categories and if you were to calculate the area under the curve you could find out how much data are in certain excerpts of the dataset.
 
 2.
 A categorical feature column defines a feature that will be used by the model. Explained differently, it

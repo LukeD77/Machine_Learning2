@@ -29,9 +29,19 @@ calculate the amount of data that falls within that threshold.
 
 B.
 1.
+[Feature values bar plot](https://user-images.githubusercontent.com/67921793/88245545-931aed00-cc65-11ea-8b99-cc7a532f174c.png)
 
+[Violin Plot](https://user-images.githubusercontent.com/67921793/88245560-9c0bbe80-cc65-11ea-8472-9a9fc776d1bc.png)
+
+Gender, age, and class appear to be the top three contributor, in that order.
 
 2.
+[Gain feature importance](https://user-images.githubusercontent.com/67921793/88246144-a5962600-cc67-11ea-99d5-0c16998a7e08.png)
 
+This figure displays the feature importance to the probability in both directions, positive and negative.
 
-3.
+[Directional feature importance](https://user-images.githubusercontent.com/67921793/88246167-b9418c80-cc67-11ea-9c89-fb403465ac8f.png)
+
+This figure displays the features' importance to the probability as an absolute value, so only in the positive direction.
+
+Clearly, sex is the most important factor when determining the probability of survival; however, the figures are not in congruence about the ranking of values after that. In the Gain feature figure, the second most valued feature is class, whereas age and fare are the second and third highest contributors in the mean directions feature graph.

@@ -1,0 +1,20 @@
+Below is the code for the most optimal model. Below the code is my response
+
+CODE
+
+
+
+
+
+
+
+The initial training of the model started out with a CNN with one convolutional layer at 32 neurons and a dense layer with 500 neurons outputing to 1 neuron.
+All the neuron activations were relu. I set the batch size in each image generator to 50 and ran the first model
+on 1000 training images and 500 testing images once I was reliably able to run the model on much smaller datasets.
+With an adam optimizer, 5 epochs, and 2 steps per epoch and validation, I got an mse of 660 and a val_mse of 740.
+I then added more convolution layers, one with 16 neurons and one with 64 neurons. I also increased the amount
+of training images to 2500. Running this model with 10 epochs and 5 steps per epoch, the model output an MSE of 221 and a val_mse of 269.
+After increasing the training images to 5000 and setting 10 epochs with 10 steps per epoch, the model had an mse of 
+755 and a val_mse of 303. This model is clearly underfit. I then ran the model with all 9000 images at 9 epochs with 20 steps.
+This output a mse of 1590 and a val_mse of 1850. I attempted to rectify this by adding a second dense layer of 
+200 neurons and the model output an mse of 800 and a val_mse of 414.

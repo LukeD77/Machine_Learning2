@@ -11,7 +11,10 @@ had an mse of 755 and a val_mse of 303. This model is clearly underfit.
 
 After this I ran the model using 9000 training images and the MSE and val MSE skyrocketed. I attempted to rectify this by
 testing numerous modifications to the number of dense layers and number of neurons in each layer, I settled on adding a 
-second dense layer with 250 neurons. This produced an output of and mse of  and vla mse of 
+second dense layer with 250 neurons. This produced an output of and mse of 1642 and vla mse of 2233. Blue is the validation MSE 
+and red is the training MSE. I could not figure out how to put a y axis on the image, unfortunately.
+
+[figure 1](https://user-images.githubusercontent.com/67921793/88495306-84934500-cf87-11ea-95d4-9d0fcf90b83a.png)
 
 I noticed when examining the data that the last folder, accra 4, contained many labels that were 0. I found this troubling 
 since I used the 1000 images in accra 4 as my testing data. To adjust for any bias the large amount of zeros may add to the model
@@ -19,6 +22,6 @@ I repartitioned my training and testing data and reran the model. My MSE then wa
 is a graph illustrating the MSE of this model. Blue is the validation MSE and red is the training MSE. I could not figure out
 how to put a y axis on the image, unfortunately. 
 
-[Figure 1](https://user-images.githubusercontent.com/67921793/88494417-071a0580-cf84-11ea-93b5-77d223668241.png)
+[Figure 2](https://user-images.githubusercontent.com/67921793/88494417-071a0580-cf84-11ea-93b5-77d223668241.png)
 
 

@@ -24,4 +24,6 @@ how to put a y axis on the image, unfortunately.
 
 [Figure 2](https://user-images.githubusercontent.com/67921793/88494417-071a0580-cf84-11ea-93b5-77d223668241.png)
 
+Next I evaluated the model's predictions on two test images. One image contained 8 people and the other contained 38. The model then predicted for these images a population
+of 47.11294 and 47.37804 respectively. These values are terribly off target; however, one positive is that the denser image was predicted at a higher value than the empty image. After figuring out that my training data was not partitioned correctly and I was only using 3k images instead of 9k, I reran the model and it now predicts 31 people for the first image and 79 people for the second image. While it seemed to pick up on more structures in the image it also exacerbated their importance when using them to predict the number of people present.
 

@@ -21,3 +21,7 @@
 [Response for 7/22/2020](https://luked77.github.io/Machine_Learning2/7-22-2020_Response)
 
 [Project 3](https://luked77.github.io/Machine_Learning2/Project3)
+
+[Response for 7/28/2020](https://luked77.github.io/Machine_Learning2/7-28-2020_Response)
+
+[Response for 7/29/2020](https://luked77.github.io/Machine_Learning2/7-29-2020_Response)

@@ -53,6 +53,8 @@ To take my model one step further, I would finish setting up an automated workfl
 classifier in large batches to increase the amount of data to conduct my analysis on. I could also include more features in the data such as what state the users live in or what 
 political party the governor of their state belongs to. I could also modify that data I pull from twitter to either include different search phrases to increase my dataset, I could
 create a live stream of data that would update the model over time, or I could conduct my analysis on tweets before and after a mask mandate is implimented within a specific state.
+Another aspect of my project that I could focus on is the RNN that conducted my sentiment analysis. I could work to optimize its performace by tweeking model parameters, if I had
+more time.
 
 References
 Zubair, K. ., Luqman, M. ., Ijaz, F. ., Hafeez, F. ., & Aftab, R. K. . (2020). Practices of General Public Towards Personal Protective Measures During the Coronavirus Pandemic. 
